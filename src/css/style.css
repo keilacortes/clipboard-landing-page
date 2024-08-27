@@ -22,15 +22,11 @@ header h1{
     margin: 53px 0 17px;
 }
 
-header p {
-    max-width: 550px;
+header .cta-button, .section6 .cta-button {
+    margin: 80px 0 40px;
 }
 
-header .cta-button {
-    margin: 40px 0;
-}
-
-header .cta-button a {
+header .cta-button a, .section6 .cta-button a {
     color: #ffffff;
     border-radius: 26px;
     padding: 13px 26px;
@@ -38,16 +34,120 @@ header .cta-button a {
     transition: 0.2s;
 }
 
-header .cta-button .ios{
+header .cta-button .ios, .section6 .cta-button .ios{
     background-color: hsl(171, 66%, 44%);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-header .cta-button .mac{
+header .cta-button .mac, .section6 .cta-button .mac{
     background-color: hsl(233, 100%, 69%);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-header .cta-button a:hover{
+header .cta-button a:hover, .section6 .cta-button a:hover{
     opacity: 0.8;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 148px 0 71px;
+}
+
+.section1 .title {
+    margin-bottom: 17px;
+}
+
+header p, .section1 p {
+    max-width: 530px;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin-bottom: 130px;
+}
+
+.section2 .text {
+    margin-bottom: 40px;
+    max-width: 420px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section3 .text {
+    max-width: 530px;
+    margin-bottom: 80px;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section4 .tools {
+    display: flex;
+    margin: 53px auto;
+}
+
+.section4 .tools .tool img {
+    min-height: 40px;
+    margin-bottom: 40px;
+}
+
+.section4 .tools .tool {
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 420px;
+}
+
+.section5 {
+    margin: 130px;
+}
+
+.section5 nav ul{
+    display: flex;
+    gap: 40px 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section6 {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.section2 .title, .section3 .title, .section4 .title, .section6 .title {
+    margin-bottom: 13px;
+}
+
+footer {
+    display: flex;
+    background-color: lightblue;
+}
+
+footer .help-links img {
+    width: 60px;
+}
+
+footer .help-links ul{
+    display: flex;
+}
+
+footer .social-links {
+    display: flex;
 }
