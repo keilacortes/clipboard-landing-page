@@ -137,15 +137,19 @@ header p, .section1 p {
 
 footer {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: lightblue;
 }
 
 footer .help-links img {
     width: 60px;
+    margin: 40px 100px;
 }
 
 footer .help-links ul{
     display: flex;
+    align-items: center;
 }
 
 footer .social-links {
