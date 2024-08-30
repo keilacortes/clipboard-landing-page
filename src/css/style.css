@@ -138,20 +138,28 @@ header p, .section1 p {
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: lightblue;
+    justify-content: center;
+    background-color: hsl(220, 18%, 97);
 }
 
-footer .help-links img {
-    width: 60px;
-    margin: 40px 100px;
+footer a img {
+    width: 71px;
 }
 
-footer .help-links ul{
+footer .help-links ul {
     display: flex;
-    align-items: center;
+}
+
+footer .help-links ul li {
+    padding: 22px 40px;
+    background-color: lightblue;
 }
 
 footer .social-links {
     display: flex;
+}
+
+footer .social-links li a img{
+    max-width: 24px;
+    margin: 19px;
 }
