@@ -52,7 +52,8 @@ header .cta-button a:hover, .section6 .cta-button a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 148px 0 71px;
+    text-align: center;
+    margin: 148px 40px 71px;
 }
 
 .section1 .title {
@@ -67,8 +68,8 @@ header p, .section1 p {
 .section2 {
     display: flex;
     align-items: center;
-    gap: 130px;
-    margin-bottom: 130px;
+    gap: 80px;
+    margin: 0 40px 130px;
 }
 
 .section2 .text {
@@ -81,6 +82,7 @@ header p, .section1 p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 40px;
 }
 
 .section3 .text {
@@ -93,6 +95,7 @@ header p, .section1 p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 40px;
 }
 
 .section4 .tools {
@@ -112,15 +115,16 @@ header p, .section1 p {
     align-items: center;
     text-align: center;
     max-width: 420px;
+    margin: 0 13px;
 }
 
 .section5 {
-    margin: 130px;
+    margin: 130px 40px;
 }
 
 .section5 nav ul{
     display: flex;
-    gap: 40px 80px;
+    gap: 80px;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -128,7 +132,7 @@ header p, .section1 p {
 
 .section6 {
     text-align: center;
-    margin-bottom: 150px;
+    margin: 0 40px 150px;
 }
 
 .section2 .title, .section3 .title, .section4 .title, .section6 .title {
@@ -139,27 +143,53 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(220, 18%, 97);
+    padding: 26px;
+    background-color: #F5F6F8;
 }
 
-footer a img {
+footer .logo img {
     width: 71px;
+    margin: auto 40px;
 }
 
 footer .help-links ul {
     display: flex;
+    margin-right: 170px;
 }
 
-footer .help-links ul li {
-    padding: 22px 40px;
-    background-color: lightblue;
+footer .help-links li a {
+    color: hsl(210, 10%, 33%);
+    transition: 0.2s;
+}
+
+footer .help-links .links-top li {
+    padding: 13px 49px;
+    color: hsl(210, 10%, 33%);
+}
+
+footer .help-links .links-bottom li {
+    padding: 13px 4px 13px 49px;
+    color: hsl(210, 10%, 33%);
 }
 
 footer .social-links {
     display: flex;
 }
 
-footer .social-links li a img{
-    max-width: 24px;
-    margin: 19px;
+footer .social-links li svg {
+    fill: #4C545C;
+    transition: 0.2s;
+}
+
+footer .social-links li svg:hover {
+    fill: hsl(171, 66%, 44%);
+}
+
+footer .social-links li {
+    margin: 13px;
+    transition: fill 0.2s ease;
+}
+
+footer .help-links li a:hover, footer .social-links li svg:hover{
+    color: hsl(171, 66%, 44%);
 }
